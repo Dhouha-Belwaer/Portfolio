@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Dhouha Belwaer</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2 class="logo"><span>Portfolio</span></h2>
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projets">Projets</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        
+        <div class="content">
+            <h4>Hi There, I'm</h4>
+            <h2>Dhouha Belwaer</h2>
+            <h3>Étudiante en Multimédia & Web Development</h3>
+            <p>Je suis passionnée par la création des sites web et l’intégration front-end.</p>
+            <a href="#contact" class="btn-p">Contact Me</a>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/dhouha.belwaer/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/belwaerdhouha/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/dhouha-belouaer-9b9756338"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="img-box">
+            <img src="bg.png" alt="profile">
+        </div>
+
+    </section>
+    <!-- ABOUT ME SECTION -->
+<section id="About" class="about">
+    <div class="about-card">
+        <div class="about-img">
+            <img src="dhouha.png" alt="Dhouha Belwaer">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                Bonjour! Je suis <strong>Dhouha Belwaer</strong>, étudiante en Multimédia et Développement Web.
+                Passionnée par la création de sites web et l'intégration front-end, je travaille sur des projets créatifs
+                et j'aime apprendre de nouvelles technologies.
+            </p>
+            <a href="Belwaer_DhouhaCV.pdf" download class="btn-p">Télécharger CV</a>
+        </div>
+    </div>
+</section>
+<!-- SKILLS SECTION -->
+<section id="Skills" class="skills">
+    <div class="skills-card">
+        <h2>Mes Compétences</h2>
+        <p>Voici mes principales compétences techniques et mon niveau d’expertise.</p>
+        <div class="skills-list">
+            <div class="skill">
+                <span>HTML</span>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>CSS</span>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Python</span>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>WordPress</span>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+            <span>Bootstrap</span>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 73%;"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<!-- PROJETS SECTION -->
+<section id="Projets" class="projets">
+    <h2>Mes Projets</h2>
+    <div class="projets-container">
+        <!-- Projet 1 -->
+        <div class="card">
+            <h3>EventEase</h3>
+            <h4>Mini-application Web</h4>
+            <p>Plateforme simple permettant de gérer et consulter des événements.</p>
+            <p class="tech"><strong>Technologies :</strong> HTML, CSS, JavaScript, Bootstrap</p>
+            <p class="status">Statut : Terminé</p>
+            <a href="#" class="project-btn">Preview bientôt</a>
+        </div>
+        <!-- Projet 2 -->
+        <div class="card">
+            <h3>Vente Ordinateurs & Accessoires</h3>
+            <h4>Site e-commerce statique</h4>
+            <p>Site de présentation pour vente de matériel informatique et accessoires.</p>
+            <p class="tech"><strong>Technologies :</strong> Wordpress</p>
+            <p class="status">Statut : Terminé</p>
+            <a href="#" class="project-btn">Preview bientôt</a>
+        </div>
+        <!-- Projet 3 -->
+        <div class="card">
+            <h3>Weather App</h3>
+            <h4>Application météo</h4>
+            <p>Application permettant d'afficher la météo en temps réel via API.</p>
+            <p class="tech"><strong>Technologies :</strong> HTML, CSS, JavaScript, API</p>
+            <p class="status">Statut : En cours</p>
+            <a href="#" class="project-btn">Preview bientôt</a>
+        </div>
+    </div>
+</section>
+<!-- CONTACT SECTION -->
+<section id="Contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Vous pouvez me contacter via le formulaire ci-dessous ou par mes réseaux sociaux.</p>
+    
+    <div class="contact-container">
+        <!-- Formulaire -->
+        <form action="#" class="contact-form">
+            <input type="text" name="name" placeholder="Votre Nom" required>
+            <input type="email" name="email" placeholder="Votre Email" required>
+            <textarea name="message" rows="5" placeholder="Votre Message" required></textarea>
+            <button type="submit" class="btn-p">Envoyer</button>
+        </form>
+
+        <!-- Infos & Réseaux sociaux -->
+        <div class="contact-info">
+            <h3>Mes Réseaux</h3>
+            <a href="https://www.facebook.com/dhouha.belwaer/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/belwaerdhouha/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/dhouha-belouaer-9b9756338" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</section>
+
+
+
+
+</body>
+</html>
+
